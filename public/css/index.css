@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,900;1,6..12,900&display=swap');
+
+body {
+    background-color: rgb(5, 5, 5) !important;
+}
+
+li {
+    list-style: none;
+    display: inline;
+
+}
+
+.nav-item {
+    margin-top: 30px;
+    margin-right: 30px;
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+    font-size: 19px !important;
+}
+
+h5 {
+    justify-content: center;
+    display: flex;
+
+}
+
+video {
+    width: 100%;
+    height: 1500px;
+    z-index: -1;
+    position: absolute;
+    margin-top: -500px;
+}
+
+.cuadroblanco {
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    height: 610px;
+    border-radius: 55px;
+    margin-top: 150px;
+}
+
+.nav-link:hover {
+    color: rgb(204, 200, 210) !important;
+}
+
+/* Ocultar la barra de la derecha */
+.hideScroll {
+    overflow: auto;
+    height: 100px;
+    scrollbar-width: none;
+    /*Firefox*/
+}
+
+/*Webkit*/
+.hideScroll::-webkit-scrollbar {
+    width: 0;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.titulo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.login {
+    margin-left: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+.register{
+    margin-left: 30px;
+}
+
+
+
+@media only screen and (max-width: 431px) {
+
+
+    .cuadroblanco {
+
+        width: 80%;
+        border-radius: 0;
+        height: 160px;
+        margin-top: 110px;
+        border-radius: 35px;
+    }
+
+    video {
+        width: 100%;
+        height: 1500px;
+        z-index: -1;
+        position: absolute;
+        margin-top: -580px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0) !important;
+        font-size: 19px !important;
+    }
+
+    .nav-link:hover {
+        color: rgb(99, 99, 99) !important;
+    }
+}
+
+/* botones */
+.Artistas {
+    margin-top: 120px;
+    margin-left: 500px;
+}
+
+.ArtistasClass {
+    background-color: rgb(199, 0, 0);
+    border-radius: 20px;
+    width: 27%;
+    height: 100px;
+    display: inline-block;
+    margin-top: 15px;
+
+}
+
+.textoCards {
+    margin-top: 34px;
+    margin-left: 10px !important;
+    font-family: 'Nunito Sans', sans-serif;
+}
